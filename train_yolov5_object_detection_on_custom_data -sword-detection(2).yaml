@@ -1,0 +1,13 @@
+train: /content/yolov5/sword-1/train
+val: /content/yolov5/sword-1/valid
+test: /content/yolov5/sword-1/test
+
+nc: 1
+names: ['sword']
+
+roboflow:
+  workspace: hslee-9xf60
+  project: sword-zilmu
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hslee-9xf60/sword-zilmu/dataset/1
